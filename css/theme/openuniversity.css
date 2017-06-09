@@ -4,21 +4,24 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Arimo:300italic,400italic,700italic,300,400,700);
 
-.reveal .slides{
+.reveal .slides section{
     border-bottom: solid 20px #D6D34E;
 }
 
 /* Set the background images*/
-.reveal .slides .bodySlide{
+.reveal .slides section{
+    background-color: #ffffff;
     background-image: url(/custom_modules/reveal.js/img/kmilogo.png), url(/custom_modules/reveal.js/img/oulogo.png);
     background-repeat: no-repeat;
     background-position: left bottom, right top;
 }
 
 /* Title page */
-.reveal .slides .titlePage{
-  background-image: none;
-}
+/*.reveal .slides {
+  background-image: url(/custom_modules/reveal.js/img/outitlepage.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
 
 
 /* Set font defaults */
