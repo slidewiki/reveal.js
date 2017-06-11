@@ -225,33 +225,6 @@ pptx2html.
 	overflow: visible;
 }
 
-/*********************************************
- * TITLE PAGE
- *********************************************/
-.reveal .titlePage{
-  height:100%;
-  width:100%;
-}
-
-.reveal .slides .titlePageHeading {
-    height: 300px;
-    width: 640px;
-    border: dashed 3px #33cc33;
-    vertical-align: bottom;
-    position: absolute;
-    left: 140px;
-    top: 100px;
-}
-
-
-.reveal .slides .titlePageSubHeading {
-    height:100px;
-    width:640px;
-    position:absolute;
-    left:140px;
-    top:405px;
-    border: dashed 3px #33cc33;
-}
 
 /*********************************************
  * VIEW FRAGMENTS
