@@ -235,6 +235,7 @@
 
 		// Holds information about the keyboard shortcuts
 		keyboardShortcuts = {
+			//SWIK-2100 Removed N and H due to conflicts - HF
 			'SPACE':				'Next slide',
 			'P':					'Previous slide',
 			'&#8592;':				'Navigate left',
