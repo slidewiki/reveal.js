@@ -235,9 +235,9 @@
 
 		// Holds information about the keyboard shortcuts
 		keyboardShortcuts = {
-			'N  ,  SPACE':			'Next slide',
+			'SPACE':				'Next slide',
 			'P':					'Previous slide',
-			'&#8592;  ,  H':		'Navigate left',
+			'&#8592;':				'Navigate left',
 			'&#8594;  ,  L':		'Navigate right',
 			'&#8593;  ,  K':		'Navigate up',
 			'&#8595;  ,  J':		'Navigate down',
