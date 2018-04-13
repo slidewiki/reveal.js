@@ -77,7 +77,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 .reveal li{
     color: #000;
     font-size: 28pt;
-    font-family: Calibri;
+    font-family: sans-serif;
     font-weight: initial;
     font-style: normal;
     text-decoration: initial;
