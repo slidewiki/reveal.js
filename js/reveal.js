@@ -235,17 +235,18 @@
 
 		// Holds information about the keyboard shortcuts
 		keyboardShortcuts = {
-			'N  ,  SPACE':			'Next slide',
+			//SWIK-2100 (HF) Removed N and H due to conflicts
+			// Removed references to up and down, and added speaker view
+			'SPACE':				'Next slide',
 			'P':					'Previous slide',
-			'&#8592;  ,  H':		'Navigate left',
-			'&#8594;  ,  L':		'Navigate right',
-			'&#8593;  ,  K':		'Navigate up',
-			'&#8595;  ,  J':		'Navigate down',
+			'&#8592;':				'Navigate left',
+			'&#8594;':				'Navigate right',
 			'Home':					'First slide',
 			'End':					'Last slide',
 			'B  ,  .':				'Pause',
 			'F':					'Fullscreen',
-			'ESC, O':				'Slide overview'
+			'ESC, O':				'Slide overview',
+			'S': 					'Speaker view'
 		};
 
 	/**
