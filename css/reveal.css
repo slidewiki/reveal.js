@@ -501,7 +501,8 @@ pptx2html.
   right: 0;
   bottom: 0;
   left: 0;
-  margin: auto;
+  /*SWIK-2142 Changed margin to only centre horizontally*/
+  margin: 0 auto;
   overflow: visible;
   z-index: 1;
   text-align: center;
