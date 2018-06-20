@@ -13,11 +13,11 @@
   background-color: #111; }
 
 .reveal {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Source Sans Pro", Helvetica, sans-serif;
   /*Sizes are defined in reveal.css - HF
   font-size: 30px;*/
   font-weight: normal;
-  color: #eee; }
+  color: #fff; }
 
 .reveal ::selection {
   color: #fff;
@@ -39,14 +39,16 @@
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eee;
-  font-family: "Montserrat", Impact, sans-serif;
-  font-weight: normal;
+  color: #fff;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-weight: 600;
   line-height: 1.2;
-  letter-spacing: -0.03em;
-  text-transform: none;
+  letter-spacing: normal;
+  /* Was requested we remove this in SWIK-1071. Doing for all themes - HF*/
+  /*text-transform: uppercase;*/
   text-shadow: none;
-  word-wrap: break-word; }
+  /* removed break-word in SWIK-2213
+    word-wrap: break-word; */ }
 
 /* Size now defined in reveal.css - HF
 .reveal h1 {
@@ -69,7 +71,7 @@
  *********************************************/
 .reveal p {
   margin: 20px 0;
-  line-height: 1.3; }
+  line-height: 1.2; }
 
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
